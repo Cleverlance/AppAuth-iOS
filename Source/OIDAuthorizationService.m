@@ -166,7 +166,7 @@ NS_ASSUME_NONNULL_BEGIN
                               userInfo:userInfo];
       }
   }
-  sleep(7);
+  sleep(5);
 
   [_externalUserAgent dismissExternalUserAgentAnimated:YES completion:^{
       [self didFinishWithResponse:response error:error];
